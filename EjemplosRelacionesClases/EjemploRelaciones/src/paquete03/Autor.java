@@ -1,24 +1,31 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package paquetedos;
+package paquete03;
 
 /**
  *
- * @author reroes
+ * @author Carlos Morocho - PC
  */
 public class Autor {
-
     private String nombre;
     private String apellido;
+    private String pasaporte;
 
     public Autor(String a, String b) {
         nombre = a;
         apellido = b;
     }
-
+    
+    public void establecerPasaporte(String n) {
+        pasaporte = n;
+    }
+    
+    public String obtenerPasaporte() {
+        return pasaporte;
+    }
+    
     public void establecerNombre(String n) {
         nombre = n;
     }
